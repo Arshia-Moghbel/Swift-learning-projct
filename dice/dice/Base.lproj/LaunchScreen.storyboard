@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9f-Gc-X41">
+                                <rect key="frame" x="0.0" y="59" width="430" height="839"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Abstract-Gradient-Digital-Art-4K-Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="2u5-5L-vbJ">
+                                        <rect key="frame" x="0.0" y="-62" width="430" height="939"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <colorWell contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3yP-R1-jYv">
+                                        <rect key="frame" x="189" y="397" width="53" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </colorWell>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="2kE-Ii-9lB">
+                                        <rect key="frame" x="197" y="401" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2kE-Ii-9lB" firstAttribute="centerY" secondItem="c9f-Gc-X41" secondAttribute="centerY" id="UXE-5g-uui"/>
+                                    <constraint firstItem="2kE-Ii-9lB" firstAttribute="centerX" secondItem="c9f-Gc-X41" secondAttribute="centerX" id="s1n-zw-qyn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="c9f-Gc-X41" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="E6g-hm-fO7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c9f-Gc-X41" secondAttribute="trailing" id="FNm-Ls-1WD"/>
+                            <constraint firstItem="c9f-Gc-X41" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MxM-1A-ofn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c9f-Gc-X41" secondAttribute="bottom" id="e7b-wF-Fcr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.627906976744185" y="348.92703862660949"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blue-Abstract-Gradient-Digital-Art-4K-Wallpaper" width="960" height="540"/>
+    </resources>
+</document>
