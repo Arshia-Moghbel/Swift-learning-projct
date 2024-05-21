@@ -1,2 +1,3 @@
 # swift
-my swift lesson project
+My Swift lesson projects!
+1.Dice.
