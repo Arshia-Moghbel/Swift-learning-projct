@@ -1,3 +1,4 @@
 # swift
 My Swift lesson projects!
-1.Dice.
+1.Dice
+.
