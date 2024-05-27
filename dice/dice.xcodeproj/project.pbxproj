@@ -105,8 +105,8 @@
 				6933699D2AFBBCE400BD158C /* SceneDelegate.swift */,
 				6933699F2AFBBCE400BD158C /* ViewController.swift */,
 				693369A12AFBBCE400BD158C /* Main.storyboard */,
-				693369A42AFBBCE500BD158C /* Assets.xcassets */,
 				693369A62AFBBCE500BD158C /* LaunchScreen.storyboard */,
+				693369A42AFBBCE500BD158C /* Assets.xcassets */,
 				693369A92AFBBCE500BD158C /* Info.plist */,
 			);
 			path = dice;

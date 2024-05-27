@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rCg-2w-T4u">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="com.hdbluewallpaper.bluebackground.bluecolorwallpaper.colorfulwallpapers.offlinewallpaper-1cca5fae-288b-44fb-85e1-4a0a79ceb61a" translatesAutoresizingMaskIntoConstraints="NO" id="lrx-xG-QPd">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgrauond of Load Page App" translatesAutoresizingMaskIntoConstraints="NO" id="lrx-xG-QPd">
                                 <rect key="frame" x="-5" y="-4" width="937" height="960"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="VzI-OD-WhO">
@@ -25,7 +25,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZh-tq-NyB">
                                         <rect key="frame" x="0.0" y="0.0" width="430" height="264.33333333333331"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice_PNG22" translatesAutoresizingMaskIntoConstraints="NO" id="Z9d-EX-hq7">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App Icone of Loading Page in App" translatesAutoresizingMaskIntoConstraints="NO" id="Z9d-EX-hq7">
                                                 <rect key="frame" x="163" y="82.333333333333343" width="104.33333333333331" height="100"/>
                                             </imageView>
                                         </subviews>
@@ -162,9 +162,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="App Icone of Loading Page in App" width="104.33333587646484" height="100"/>
+        <image name="Backgrauond of Load Page App" width="57.666667938232422" height="100"/>
         <image name="Untitled-2" width="47.333332061767578" height="47"/>
-        <image name="com.hdbluewallpaper.bluebackground.bluecolorwallpaper.colorfulwallpapers.offlinewallpaper-1cca5fae-288b-44fb-85e1-4a0a79ceb61a" width="57.666667938232422" height="100"/>
-        <image name="dice_PNG22" width="104.33333587646484" height="100"/>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
