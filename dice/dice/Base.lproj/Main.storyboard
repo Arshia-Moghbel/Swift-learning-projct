@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rCg-2w-T4u">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -40,7 +41,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-s1-hfX">
                                                 <rect key="frame" x="45" y="82.333333333333371" width="340" height="100"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-2" translatesAutoresizingMaskIntoConstraints="NO" id="tOf-Jd-VP0">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="tOf-Jd-VP0">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="2gC-wc-lFO"/>
@@ -48,7 +49,7 @@
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-2" translatesAutoresizingMaskIntoConstraints="NO" id="12Y-mB-Tjg">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="12Y-mB-Tjg">
                                                         <rect key="frame" x="120" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="FqV-ha-cWg"/>
@@ -56,7 +57,7 @@
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-2" translatesAutoresizingMaskIntoConstraints="NO" id="V28-mn-vMs">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="V28-mn-vMs">
                                                         <rect key="frame" x="240" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="EH5-XM-jrB"/>
@@ -86,10 +87,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIT-mC-XEl">
-                                                <rect key="frame" x="178" y="30" width="75" height="39"/>
+                                                <rect key="frame" x="125" y="30" width="182" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Go to Another Pages"/>
                                                 <connections>
                                                     <segue destination="THu-vF-9qt" kind="show" id="OHr-Lh-nbK"/>
                                                 </connections>
@@ -133,6 +134,15 @@
                     <view key="view" contentMode="scaleToFill" id="jca-04-1KE">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhl-Nm-4ob">
+                                <rect key="frame" x="92" y="394" width="262" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Z4B-UW-vsh"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                     </view>
@@ -164,7 +174,7 @@
     <resources>
         <image name="App Icone of Loading Page in App" width="104.33333587646484" height="100"/>
         <image name="Backgrauond of Load Page App" width="57.666667938232422" height="100"/>
-        <image name="Untitled-2" width="47.333332061767578" height="47"/>
+        <image name="Dice 1" width="47.333332061767578" height="47"/>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
