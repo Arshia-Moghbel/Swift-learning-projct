@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rCg-2w-T4u">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -14,20 +14,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="dice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgrauond of Load Page App" translatesAutoresizingMaskIntoConstraints="NO" id="lrx-xG-QPd">
-                                <rect key="frame" x="-5" y="-4" width="937" height="960"/>
+                                <rect key="frame" x="-5" y="-4" width="1380" height="471"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="VzI-OD-WhO">
-                                <rect key="frame" x="0.0" y="103" width="430" height="795"/>
+                                <rect key="frame" x="59" y="44" width="814" height="365"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZh-tq-NyB">
-                                        <rect key="frame" x="0.0" y="0.0" width="430" height="264.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="814" height="121"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App Icone of Loading Page in App" translatesAutoresizingMaskIntoConstraints="NO" id="Z9d-EX-hq7">
-                                                <rect key="frame" x="163" y="82.333333333333343" width="104.33333333333331" height="100"/>
+                                                <rect key="frame" x="355" y="10.666666666666657" width="104.33333333333331" height="100"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -36,12 +36,12 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMw-bs-fNv">
-                                        <rect key="frame" x="0.0" y="265.33333333333337" width="430" height="264.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="122" width="814" height="121"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-s1-hfX">
-                                                <rect key="frame" x="45" y="82.333333333333371" width="340" height="100"/>
+                                                <rect key="frame" x="237" y="10.666666666666657" width="340" height="100"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="tOf-Jd-VP0">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="tOf-Jd-VP0">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="2gC-wc-lFO"/>
@@ -49,7 +49,7 @@
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="12Y-mB-Tjg">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="12Y-mB-Tjg">
                                                         <rect key="frame" x="120" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="FqV-ha-cWg"/>
@@ -57,7 +57,7 @@
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="V28-mn-vMs">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice 1" translatesAutoresizingMaskIntoConstraints="NO" id="V28-mn-vMs">
                                                         <rect key="frame" x="240" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="EH5-XM-jrB"/>
@@ -74,10 +74,21 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RQ-dl-Qhy">
-                                        <rect key="frame" x="0.0" y="530.66666666666663" width="430" height="264.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="244" width="814" height="121"/>
                                         <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIT-mC-XEl">
+                                                <rect key="frame" x="316.33333333333331" y="8" width="181.66666666666669" height="0.0"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="U5e-Xi-Qz2"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Go to Another Pages"/>
+                                                <connections>
+                                                    <segue destination="THu-vF-9qt" kind="show" id="OHr-Lh-nbK"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZe-tC-ThI">
-                                                <rect key="frame" x="156.66666666666666" y="98.333333333333371" width="116.66666666666666" height="68"/>
+                                                <rect key="frame" x="348.66666666666669" y="85" width="116.66666666666669" height="2.3333333333333286"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Rool">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="45"/>
@@ -86,19 +97,13 @@
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ODT-FI-btv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIT-mC-XEl">
-                                                <rect key="frame" x="125" y="30" width="182" height="39"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Go to Another Pages"/>
-                                                <connections>
-                                                    <segue destination="THu-vF-9qt" kind="show" id="OHr-Lh-nbK"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="NIT-mC-XEl" firstAttribute="centerX" secondItem="PZe-tC-ThI" secondAttribute="centerX" id="cwv-9Q-XgN"/>
                                             <constraint firstItem="PZe-tC-ThI" firstAttribute="centerX" secondItem="5RQ-dl-Qhy" secondAttribute="centerX" id="js5-bE-IJV"/>
-                                            <constraint firstItem="PZe-tC-ThI" firstAttribute="centerY" secondItem="5RQ-dl-Qhy" secondAttribute="centerY" id="uTw-PH-nO7"/>
+                                            <constraint firstItem="NIT-mC-XEl" firstAttribute="top" secondItem="5RQ-dl-Qhy" secondAttribute="top" constant="8" id="lKD-Vl-gKW"/>
+                                            <constraint firstItem="PZe-tC-ThI" firstAttribute="centerY" secondItem="5RQ-dl-Qhy" secondAttribute="centerY" constant="25.666666666666657" id="uTw-PH-nO7"/>
+                                            <constraint firstItem="PZe-tC-ThI" firstAttribute="top" secondItem="NIT-mC-XEl" secondAttribute="bottom" constant="77" id="w00-x0-ecc"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -132,19 +137,22 @@
             <objects>
                 <viewController id="THu-vF-9qt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jca-04-1KE">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhl-Nm-4ob">
-                                <rect key="frame" x="92" y="394" width="262" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soon" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhl-Nm-4ob">
+                                <rect key="frame" x="335" y="143" width="262" height="144"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z4B-UW-vsh"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="Vhl-Nm-4ob" firstAttribute="centerY" secondItem="jca-04-1KE" secondAttribute="centerY" id="Gyk-EI-pV5"/>
+                            <constraint firstItem="Vhl-Nm-4ob" firstAttribute="centerX" secondItem="jca-04-1KE" secondAttribute="centerX" id="d5Q-x7-k0s"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ibg-Zn-A3D"/>
                 </viewController>
@@ -158,7 +166,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rCg-2w-T4u" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WHt-QE-T6o">
-                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="932" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -174,9 +182,12 @@
     <resources>
         <image name="App Icone of Loading Page in App" width="104.33333587646484" height="100"/>
         <image name="Backgrauond of Load Page App" width="57.666667938232422" height="100"/>
-        <image name="Dice 1" width="47.333332061767578" height="47"/>
+        <image name="dice 1" width="47.333332061767578" height="47"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
