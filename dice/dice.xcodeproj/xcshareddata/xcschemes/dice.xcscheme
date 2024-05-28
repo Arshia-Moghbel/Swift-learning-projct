@@ -17,7 +17,7 @@
                BlueprintIdentifier = "693369972AFBBCE400BD158C"
                BuildableName = "dice.app"
                BlueprintName = "dice"
-               ReferencedContainer = "container:dice.xcodeproj">
+               ReferencedContainer = "container:Dice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -37,7 +37,7 @@
                BlueprintIdentifier = "693369AD2AFBBCE500BD158C"
                BuildableName = "diceTests.xctest"
                BlueprintName = "diceTests"
-               ReferencedContainer = "container:dice.xcodeproj">
+               ReferencedContainer = "container:Dice.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -48,7 +48,7 @@
                BlueprintIdentifier = "693369B72AFBBCE500BD158C"
                BuildableName = "diceUITests.xctest"
                BlueprintName = "diceUITests"
-               ReferencedContainer = "container:dice.xcodeproj">
+               ReferencedContainer = "container:Dice.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -70,7 +70,7 @@
             BlueprintIdentifier = "693369972AFBBCE400BD158C"
             BuildableName = "dice.app"
             BlueprintName = "dice"
-            ReferencedContainer = "container:dice.xcodeproj">
+            ReferencedContainer = "container:Dice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "693369972AFBBCE400BD158C"
             BuildableName = "dice.app"
             BlueprintName = "dice"
-            ReferencedContainer = "container:dice.xcodeproj">
+            ReferencedContainer = "container:Dice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

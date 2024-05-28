@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBAction func button(_ sender: UIButton) {
         playSound()
 
-        guard let url = Bundle.main.url(forResource: "New Recording 2", withExtension: "m4a") else {
+        guard let url = Bundle.main.url(forResource: "Dice Sound", withExtension: "m4a") else {
             return
         }
 
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             print("Error loading audio file: \(error)")
         }
 
-        let images = [#imageLiteral(resourceName: "Untitled-2"), #imageLiteral(resourceName: "Untitled-3"), #imageLiteral(resourceName: "Untitled-4"), #imageLiteral(resourceName: "Untitled-5"), #imageLiteral(resourceName: "Untitled-6"), #imageLiteral(resourceName: "Untitled-7")]
+        let images = [#imageLiteral(resourceName: "dice 1"), #imageLiteral(resourceName: "dice 2"), #imageLiteral(resourceName: "dice 3"), #imageLiteral(resourceName: "dice 4"), #imageLiteral(resourceName: "dice 5"), #imageLiteral(resourceName: "dice 6")]
 
         image2.image = images.randomElement()
         image3.image = images.randomElement()
